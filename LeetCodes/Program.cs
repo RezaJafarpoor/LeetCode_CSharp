@@ -2,5 +2,7 @@
 
 using LeetCodes.Easy;
 
-var s = new RomanToIntegerProblem();
-Console.WriteLine(s.RomanToInteger("VIII"));
+var s = new LcpProblem();
+
+
+Console.WriteLine(s.LongestCommonPrefix(["flower","flower", "flower"]));
