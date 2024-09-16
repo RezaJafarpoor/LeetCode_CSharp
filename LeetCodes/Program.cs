@@ -2,5 +2,5 @@
 
 using LeetCodes.Easy;
 
-var s = new PalindromeProblem();
-Console.WriteLine(12%10);
+var s = new RomanToIntegerProblem();
+Console.WriteLine(s.RomanToInteger("VIII"));
