@@ -5,4 +5,4 @@ using LeetCodes.Easy;
 var s = new LcpProblem();
 
 
-Console.WriteLine(s.LongestCommonPrefix(["flower","flower", "flower"]));
+Console.WriteLine(s.LongestCommonPrefix(["flower","flowe", "flight"]));
