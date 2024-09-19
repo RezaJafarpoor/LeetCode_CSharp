@@ -2,7 +2,7 @@
 
 using LeetCodes.Easy;
 
-var s = new LcpProblem();
+var s = new ValidParentheses();
 
 
-Console.WriteLine(s.LongestCommonPrefix(["flower","flowe", "flight"]));
+Console.WriteLine(s.IsValid("[)"));
