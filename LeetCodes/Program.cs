@@ -3,6 +3,8 @@
 using LeetCodes.Easy;
 
 var s = new ValidParentheses();
-
-
-Console.WriteLine(s.IsValid("[)"));
+var dict = new Dictionary<int, int>();
+dict[1] = 20;
+var stack = new Stack<int>();
+stack.Push(1);
+Console.WriteLine(s.IsValid("[}"));
