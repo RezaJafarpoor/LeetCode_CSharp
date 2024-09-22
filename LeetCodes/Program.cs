@@ -3,5 +3,5 @@
 
 using LeetCodes.Easy;
 
-var s = new RemoveDuplication();
-Console.WriteLine("Counter :"+s.RemoveDuplicates([1,1,2,1]));
+var s = new FirstOccurrence();
+Console.WriteLine("Counter :"+s.StrStr("sadbutsad","sad"));
