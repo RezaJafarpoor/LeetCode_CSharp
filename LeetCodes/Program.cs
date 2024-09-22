@@ -1,10 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+
 using LeetCodes.Easy;
 
-var s = new ValidParentheses();
-var dict = new Dictionary<int, int>();
-dict[1] = 20;
-var stack = new Stack<int>();
-stack.Push(1);
-Console.WriteLine(s.IsValid("[}"));
+var s = new RemoveDuplication();
+Console.WriteLine("Counter :"+s.RemoveDuplicates([1,1,2,1]));
