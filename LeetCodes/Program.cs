@@ -3,5 +3,5 @@
 
 using LeetCodes.Easy;
 
-var s = new SearchInsertIndex();
-Console.WriteLine(s.SearchInsert([1,3,4,5,6],7));
+var s = new LengthOfLastWorld();
+Console.WriteLine(s.lengthOfLastWorld("   fly me   to   the moon                                                       "));
