@@ -3,5 +3,5 @@
 
 using LeetCodes.Easy;
 
-var s = new FirstOccurrence();
-Console.WriteLine("Counter :"+s.StrStr("sadbutsad","sad"));
+var s = new SearchInsertIndex();
+Console.WriteLine(s.SearchInsert([1,3,4,5,6],7));
